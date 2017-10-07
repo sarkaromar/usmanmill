@@ -1,5 +1,5 @@
 # UsmanMill Website Template
----
+
 ### Feature
 * Comming Soon
 
@@ -20,8 +20,8 @@ Check for Node and npm
 
 Make sure that you've installed Node and npm before attempting to install gulp.
 ```sh
- $ node --version
- $ npm --version
+$ node --version
+$ npm --version
 ```
 or check the url if you not understand  
 ```sh
@@ -37,8 +37,8 @@ https://github.com/sarkaromar/usmanmill.git
 ```
 
 ```sh
- cd usmanmill/
- $ npm install
+cd usmanmill/
+$ npm install
 ```
 
 Install a version of the package matching the specified version range. This will follow the same rules for resolving dependencies described in package.json.
