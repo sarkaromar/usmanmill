@@ -13,7 +13,7 @@ var sass = require('gulp-sass'),
       css: "src/**/*.css"
     };
 
-// task start
+    // task start
 
     gulp.task('browserSync', function() {
       browserSync.init({
