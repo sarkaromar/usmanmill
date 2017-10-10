@@ -32,6 +32,7 @@ $desktop-width: 1024px;
 .logo{
     a{
         text-decoration: none;
+        transition: all 1s ease;
         &:hover{
             text-decoration: none;
         }
@@ -146,6 +147,29 @@ $desktop-width: 1024px;
             }
             @include tablet {
                 display: inline-block;
+            }
+        }
+        .dropdown-menu {
+            background: #007ac3;
+            margin: 0px;
+            border-radius: 0;
+            border: 0px;
+            padding: 0;
+            .dropdown-divider{
+                margin: 0;
+                border: 0px solid hsl(201, 100%, 50%);
+            }
+            .disabled{
+                background: #006dc8 !important;
+                &:hover{
+                    color: #ffffff;
+                }
+            }
+            a{
+                color: #ffffff;
+                &:hover{
+                    color: #004d77;
+                }
             }
         }
     }
@@ -305,7 +329,9 @@ footer{
         h3{
             border-top: 5px solid #007ac3;
             padding: 15px 0;
-            font-size: 22px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #555555;
         }
         ul{
             margin: 0;
@@ -317,6 +343,10 @@ footer{
         a{
             color: #333333;
             text-decoration: none;
+            font-size: 13px;
+            &:hover{
+                color: #007ac3
+            }
         }
     }
     .copyright{

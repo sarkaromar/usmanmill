@@ -6,7 +6,9 @@
   padding: 15px 0; }
 
 .logo a {
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
   .logo a:hover {
     text-decoration: none; }
 
@@ -108,6 +110,24 @@
       @media (min-width: 768px) and (max-width: 1023px) {
         .main-nav .custom-nav .dropdown-toggle::after {
           display: inline-block; } }
+    .main-nav .custom-nav .dropdown-menu {
+      background: #007ac3;
+      margin: 0px;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      border: 0px;
+      padding: 0; }
+      .main-nav .custom-nav .dropdown-menu .dropdown-divider {
+        margin: 0;
+        border: 0px solid #00a6ff; }
+      .main-nav .custom-nav .dropdown-menu .disabled {
+        background: #006dc8 !important; }
+        .main-nav .custom-nav .dropdown-menu .disabled:hover {
+          color: #ffffff; }
+      .main-nav .custom-nav .dropdown-menu a {
+        color: #ffffff; }
+        .main-nav .custom-nav .dropdown-menu a:hover {
+          color: #004d77; }
 
 .slider {
   background: #333333; }
@@ -187,6 +207,7 @@
     .main-body .item-4 img {
       width: 100%;
       background: #fff;
+      -webkit-box-shadow: 1px 1px 1px #999;
       box-shadow: 1px 1px 1px #999; }
   .main-body .item-2 {
     width: 100%;
@@ -194,12 +215,14 @@
     .main-body .item-2 img {
       width: 100%;
       background: #fff;
+      -webkit-box-shadow: 1px 1px 1px #999;
       box-shadow: 1px 1px 1px #999; }
 
 .product .item-4 {
   width: 100%;
   margin: 15px 0;
   background: #fff;
+  -webkit-box-shadow: 1px 1px 1px #999;
   box-shadow: 1px 1px 1px #999; }
   .product .item-4 h4 {
     text-align: center;
@@ -225,6 +248,7 @@
   padding: 15px;
   background: #cdcdcd;
   margin: 25px;
+  -webkit-border-radius: 15px;
   border-radius: 15px; }
 
 footer {
@@ -234,7 +258,9 @@ footer {
     footer .footer-opt h3 {
       border-top: 5px solid #007ac3;
       padding: 15px 0;
-      font-size: 22px; }
+      font-size: 20px;
+      font-weight: 900;
+      color: #555555; }
     footer .footer-opt ul {
       margin: 0;
       padding: 0; }
@@ -242,7 +268,10 @@ footer {
       list-style: none; }
     footer .footer-opt a {
       color: #333333;
-      text-decoration: none; }
+      text-decoration: none;
+      font-size: 13px; }
+      footer .footer-opt a:hover {
+        color: #007ac3; }
   footer .copyright {
     background: #ffffff; }
     footer .copyright p {
