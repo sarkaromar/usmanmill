@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-watch": "^4.3.11"
   },
   "devDependencies": {
